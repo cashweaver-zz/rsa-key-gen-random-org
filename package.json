@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.15.3"
+    "axios": "^0.15.3",
+    "big-integer": "^1.6.17",
+    "bluebird": "^3.4.7"
   }
 }

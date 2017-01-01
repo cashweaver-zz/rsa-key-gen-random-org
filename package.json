@@ -1,6 +1,6 @@
 {
   "name": "rsa-key-gen-random-org",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "scripts": {
     "generate": "node src/genRSAKey.js",

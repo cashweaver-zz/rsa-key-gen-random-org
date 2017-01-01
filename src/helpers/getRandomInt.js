@@ -20,7 +20,7 @@ const getRandomInt = (min, max) => {
     .get(`https://www.random.org/integers/?num=${bigMaxDigitCount*2}&min=0&max=9&col=1&base=10&format=plain&rnd=new`)
     .then(({ data }) => {
       const dataAsArray = data.split('\n');
-      console.log(dataAsArray);
+
       // Start off equal to bigMax so we enter into the while loop
       let curNum = bigMax;
       let i = 0;
@@ -34,6 +34,6 @@ const getRandomInt = (min, max) => {
     });
 };
 
-getRandomInt(2, 10000000000000000).then(num => console.log(num));
+//getRandomInt(2, 10000000000000000).then(num => console.log(num));
 
 module.exports = getRandomInt;

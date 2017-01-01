@@ -1,0 +1,17 @@
+{
+  "name": "rsa-key-gen-random-org",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "generate": "node src/genRSAKey.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "big-integer": "^1.6.17",
+    "bluebird": "^3.4.7"
+  }
+}
